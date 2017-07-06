@@ -1,0 +1,53 @@
+body, html {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	background-color: #0083BB;
+	height: 50px;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.menu-button {
+	width: 100px;
+	height: 50px;
+	background-color: #29BF89;
+	margin-left: 20px;
+	font-size: 20px;
+	line-height: 50px;
+	text-align: center;
+	color: #FFF;
+	font-family: 'Quicksand', sans-serif;
+	display: inline-block;
+}
+
+.menu-button:hover {
+	opacity: .5;
+}
+
+textarea {
+	width: 100%;
+	margin-left: auto;
+	height: auto;
+	resize: none;
+	font-size: 25px;
+	border-color: #0083BB; 
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.writingarea {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	font-size: 15px;
+}
